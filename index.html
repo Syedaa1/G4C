@@ -1,138 +1,67 @@
-
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Waste Warrior</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!--Montserrat font-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
-  </head>
-  <body>   
-    <section>
-      <!-- MOBILE NAVIGATION -->
-      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
-        <a href="#home" class="w3-bar-item w3-button w3-hover-none">My Game</a>
-        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
-      </div>
-      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
-        <a href="#pitch" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">PITCH</a>
-        <a href="#theme" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">THEME</a>
-        <a href="#why" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">WHY</a>
-      </div>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Infy App Challenge Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
 
-      <!-- SOCIAL SECTION -->
-      <section class="image-section w3-quarter w3-fixed w3-padding-small">
-        <!--IMAGE/AVATAR-->
-        <img src="avatar.png" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
-        <!--S0CIAL NETWORK BUTTONS-->
-        <div class="links w3-margin-top w3-padding-small">
-          <a class="icon-link w3-text-sand w3-hover-text-amber" href="#linkedin" target="_blank">
-             <i data-feather="linkedin"></i>
-          </a>
-        </div>
-        
-       
-      </section>
+  <!-- Navbar -->
+  <nav class="navbar navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+      <span class="navbar-brand mb-0 h1">Infy App Challenge Showcase</span>
+    </div>
+  </nav>
 
-      <!-- CONTENT SECTION-->
-      <section class="w3-threequarter w3-padding-large w3-right">
-        <!--DESKTOP NAVIGATION-->
-        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
-          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">GAME</a>
-          <a href="#why" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">WHY</a>
-          <a href="#theme" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">THEME</a>
-          <a href="#pitch" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">PITCH</a>
-        </div>
-        <div class="content-container w3-margin-top-2">
-          <!--HOME SECTION-->
-          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
-            <center>
-            <p style="font-style: italic; font-size:x-large;">"The mind is the limit. When you face your struggles, you overcome them."</p>
-            <h1>Waste Warrior</h1>
-            <h2>Syeda Mahia (HS Junior )</h2>
-            <h3>Student in web and app development</h3>
-            <p></p></center>
-          </div>
-<div> <!-- you May use a video
- 
-</video>
- 
-  -->
-  <video width="1000" height="740" controls>
-  <source src="movie.mp4" type="video/mp4">
-</video>
-  <!--<iframe src="https://play.unity.com/en/games/1ac0fb59-0583-4d44-89f3-0dec0e5a0b2e/rab-to-g4c" height="700" width="900" title="Iframe Example"></iframe>
---></div>
-          <!--pitch SECTION-->
-          <div id="pitch" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">PITCH</h2>
-            <p class="w3-margin-top-2"> 
-             Quick! Compost enough trash to level up and save Platterly before she loses a live. Come along with Platterly to delve into a colorful world where you help platterly compost food waste and restore a lively garden. Make eco-friendly choices, solve puzzles,  and learn about sustainability as you nurture the environment back to good health. Will you help make or break the garden, I guess we'll just have to find out! Make careful decisions, as each of them impact the world around you. 
+  <!-- Main Content -->
+  <div class="container text-center">
 
-            </p>
-            <p class=""> 
-             Quick! Compost enough trash to level up and save Platterly before she loses a live. Come along with Platterly to delve into a colorful world where you help platterly compost food waste and restore a lively garden. Make eco-friendly choices, solve puzzles,  and learn about sustainability as you nurture the environment back to good health. Will you help make or break the garden, I guess we'll just have to find out! Make careful decisions, as each of them impact the world around you. 
+    <!-- Title & Tagline -->
+    <h1 class="mb-3">🌿 Waste Warriors</h1>
+    <p><em>"Every peel, a purpose — Help Platterly fight food waste!"</em></p>
 
-            </p>
-            
-          </div>
-           <!--Theme SECTION-->
-          <div id="theme" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">THEME</h2>
-            <p class="w3-margin-top-2"> 
-             In waste warriors, players will dive into adventure, embarking on a whimsical journey guided by the character Platterly. Learning about composting and sustainability through engaging dialogues and charming cutscenes. The vibrant art style features colorful landscapes filled with fruits and flowers, creating a lively atmosphere that reflects growth. Players interact with various food items, making choices on how to compost them effectively to restore the garden's health. By overcoming challenges related to waste management, they experience the connection between their actions and the theme of sustainability, reinforcing the idea that every small action counts in the fight against food waste.
+    <hr>
 
-            </p>
-            <p class=""> 
-            In waste warriors, players will dive into adventure, embarking on a whimsical journey guided by the character Platterly. Learning about composting and sustainability through engaging dialogues and charming cutscenes. The vibrant art style features colorful landscapes filled with fruits and flowers, creating a lively atmosphere that reflects growth. Players interact with various food items, making choices on how to compost them effectively to restore the garden's health. By overcoming challenges related to waste management, they experience the connection between their actions and the theme of sustainability, reinforcing the idea that every small action counts in the fight against food waste.
+    <!-- Pitch Section -->
+    <h3>🎯 Pitch</h3>
+    <p>
+      Waste Warriors is a mini-game that teaches players how to compost correctly. Guided by Platterly, players sort food items to either compost or trash, helping grow a garden while learning how small actions can create a more sustainable world.
+    </p>
 
-            </p>
-            
-          </div>
+    <!-- Theme Implementation -->
+    <h3>🌍 Theme Implementation</h3>
+    <p>
+      Our app aligns with the theme of sustainability by focusing on food waste reduction. Through gameplay, users learn what can be composted and how their choices affect the environment and garden growth.
+    </p>
 
-           <!--Why SECTION-->
-          <div id="why" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
-            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY WHY</h2>
-            <p class="w3-margin-top-2"> 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Nam porttitor sollicitudin efficitur. 
-               Integer posuere odio vel ullamcorper euismod. 
-               Aliquam sit amet nulla tortor. 
-               Integer vehicula nunc et condimentum feugiat. 
-               Aenean tempor, dolor in pharetra euismod, lacus eros suscipit massa, in aliquet risus orci non leo.
-            </p>
-            <p class=""> 
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-               Nam porttitor sollicitudin efficitur. 
-               Integer posuere odio vel ullamcorper euismod. 
-               Aliquam sit amet nulla tortor. 
-               Integer vehicula nunc et condimentum feugiat. 
-               Aenean tempor, dolor in pharetra euismod, lacus eros suscipit massa, in aliquet risus orci non leo.
-            </p>
-            
-          </div>
-          </div>
-       
-    <script>
-      // Function to toggle mobile navigation
-      function toggleNavigation() {
-        let nav = document.getElementById("mobile-nav");
-        if (nav.classList.contains('w3-show')) {
-          nav.classList.remove('w3-show');
-        } else { 
-          nav.classList.add('w3-show');
-        }
-      }
-    </script>
-    <script>
-      // Script to load feather icons
-      feather.replace()
-    </script>
-  </body>
+    <!-- Why We Built This -->
+    <h3>🧠 Why We Built This</h3>
+    <p>
+      We were inspired to build this project because food waste is a global issue. We wanted to create a fun, educational tool that shows how easy composting can be, especially for young people.
+    </p>
+
+    <hr>
+
+    <!-- Slide Deck -->
+    <h3>📽️ Slide Deck</h3>
+    <iframe src="https://docs.google.com/presentation/d/e/YOUR_GOOGLE_SLIDES_EMBED_LINK_HERE/embed?start=false&loop=false&delayms=3000"
+            width="100%" height="480" frameborder="0" allowfullscreen></iframe>
+
+    <!-- Figma Prototype -->
+    <h3 class="mt-4">📱 Figma Prototype</h3>
+    <iframe style="border:1px solid #ccc" width="100%" height="600"
+            src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/proto/YOUR_FIGMA_LINK_HERE" allowfullscreen></iframe>
+
+    <!-- Demo Video (Optional) -->
+    <h3 class="mt-4">🎥 Demo Video</h3>
+    <video width="80%" controls>
+      <source src="your_demo_video.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+  </div>
+</body>
 </html>
+
